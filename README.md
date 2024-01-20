@@ -20,6 +20,18 @@ The project includes:
 - Numba
 - CUDA-enabled GPU (for GPU execution)
 
+## Numba
+
+[Numba](http://numba.pydata.org/) is a high-performance, open-source JIT compiler that translates Python functions into optimized machine code. It is used in this project to accelerate the Laplacian stencil computation on both CPU and GPU.
+
+## NumPy
+
+[NumPy](https://numpy.org/) is the fundamental package for scientific computing with Python. It provides support for large, multi-dimensional arrays and matrices, along with mathematical functions to operate on these arrays.
+
+## CUDA
+
+[CUDA](https://developer.nvidia.com/cuda-zone) is a parallel computing platform and programming model developed by NVIDIA. It enables developers to use NVIDIA GPUs for general-purpose processing (GPGPU). In this project, CUDA is utilized for GPU acceleration.
+
 ## Results
 
 The project provides insights into:
