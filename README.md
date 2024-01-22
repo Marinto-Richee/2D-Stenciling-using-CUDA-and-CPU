@@ -59,8 +59,7 @@ The speed-up factor is calculated by dividing the execution time of the CPU by t
 | 6 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
 | 7 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
 
-![Results](Analysis_Results\Speed-up Factor vs Array Size.png)
-
+![Results](Analysis_Results/Speed_up_Factor.png)
 ## Usage
 
 To run the benchmark, simply execute the script. You will be asked if you want to print the details of the execution. Enter 'y' for yes or 'n' for no.
