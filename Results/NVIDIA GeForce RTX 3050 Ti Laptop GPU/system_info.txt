@@ -1,0 +1,13 @@
+CPU name: 12th Gen Intel(R) Core(TM) i7-12700H
+CPU cores: 20
+CPU bits: 64
+CPU frequency: 2.3000 GHz
+CPU architecture: X86_64
+CPU L2 Cache Size: 12058624
+CPU L3 Cache Size: 25165824
+
+GPU name: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+GPU memory total: 4.00 GB
+GPU memory used: 0.36 GB
+GPU memory free: 3.52 GB
+GPU utilization: 0.00%

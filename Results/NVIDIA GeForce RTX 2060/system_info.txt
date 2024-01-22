@@ -1,0 +1,13 @@
+CPU name: i7-10750H CPU @ 2.60GHz with GeForce RTX 2060
+CPU cores: 12
+CPU bits: 64
+CPU frequency: 2.5920 GHz
+CPU architecture: X86_64
+CPU L2 Cache Size: 1572864
+CPU L3 Cache Size: 12582912
+
+GPU name: NVIDIA GeForce RTX 2060
+GPU memory total: 6.00 GB
+GPU memory used: 0.23 GB
+GPU memory free: 5.60 GB
+GPU utilization: 19.00%

@@ -1,0 +1,13 @@
+CPU name: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+CPU cores: 8
+CPU bits: 64
+CPU frequency: 1.2980 GHz
+CPU architecture: X86_64
+CPU L2 Cache Size: 2097152
+CPU L3 Cache Size: 8388608
+
+GPU name: NVIDIA GeForce MX230
+GPU memory total: 4.00 GB
+GPU memory used: 0.00 GB
+GPU memory free: 3.93 GB
+GPU utilization: 1.00%
