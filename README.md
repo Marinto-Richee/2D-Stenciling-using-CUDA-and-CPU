@@ -28,8 +28,8 @@ The project consists of a single Python script that performs the following tasks
 
 ### Speed-Up Factor:
 The speed-up factor is calculated by dividing the execution time of the CPU by the execution time of the GPU for a given array size and ID.
-
 | ID | CPU | GPU |
+| - | - | - |
 | 1 | i5-10300H CPU @ 2.50GHz with GTX 1650 | NVIDIA GeForce GTX 1650 |
 | 2 | i5-10300H CPU @ 2.50GHz with GTX 1650 Ti | NVIDIA GeForce GTX 1650 Ti |
 | 3 | Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz | NVIDIA GeForce MX230 |
@@ -37,27 +37,10 @@ The speed-up factor is calculated by dividing the execution time of the CPU by t
 | 5 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2070 with Max-Q Design | NVIDIA GeForce RTX 2070 with Max-Q Design |
 | 6 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
 | 7 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
-| 1 | i5-10300H CPU @ 2.50GHz with GTX 1650 | NVIDIA GeForce GTX 1650 |
-| 2 | i5-10300H CPU @ 2.50GHz with GTX 1650 Ti | NVIDIA GeForce GTX 1650 Ti |
-| 3 | Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz | NVIDIA GeForce MX230 |
-| 4 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2060 | NVIDIA GeForce RTX 2060 |
-| 5 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2070 with Max-Q Design | NVIDIA GeForce RTX 2070 with Max-Q Design |
-| 6 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
-| 7 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
-| 1 | i5-10300H CPU @ 2.50GHz with GTX 1650 | NVIDIA GeForce GTX 1650 |
-| 2 | i5-10300H CPU @ 2.50GHz with GTX 1650 Ti | NVIDIA GeForce GTX 1650 Ti |
-| 3 | Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz | NVIDIA GeForce MX230 |
-| 4 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2060 | NVIDIA GeForce RTX 2060 |
-| 5 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2070 with Max-Q Design | NVIDIA GeForce RTX 2070 with Max-Q Design |
-| 6 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
-| 7 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
-| 1 | i5-10300H CPU @ 2.50GHz with GTX 1650 | NVIDIA GeForce GTX 1650 |
-| 2 | i5-10300H CPU @ 2.50GHz with GTX 1650 Ti | NVIDIA GeForce GTX 1650 Ti |
-| 3 | Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz | NVIDIA GeForce MX230 |
-| 4 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2060 | NVIDIA GeForce RTX 2060 |
-| 5 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2070 with Max-Q Design | NVIDIA GeForce RTX 2070 with Max-Q Design |
-| 6 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
-| 7 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
+
+
+
+
 
 ![Results](Analysis_Results/Speed_up_Factor.png)
 ## Usage
@@ -67,3 +50,4 @@ To run the benchmark, simply execute the script. You will be asked if you want t
 ## Requirements
 
 This project requires Python, Numba, NumPy, and pandas. If you want to run the GPU benchmarks, you will also need a CUDA-capable GPU and the CUDA toolkit.
+
