@@ -16,7 +16,7 @@ The project includes:
 
 ## Requirements
 
-- Python 3.x
+- Python 3.8 or >
 - Numba
 - CUDA-enabled GPU (for GPU execution)
 
