@@ -1,46 +1,56 @@
-# GPU vs CPU Performance Comparison
+# 2D Stenciling using CUDA and CPU
 
-This project compares the performance of a Laplacian stencil computation on a CPU and a GPU using Numba and CUDA. The goal is to analyze execution time and memory usage on both devices.
+This project is a benchmark comparison of 2D stenciling operations performed on a CPU and a GPU using CUDA. The main operation is the calculation of the Laplacian of a 2D array, which is a common operation in image and signal processing.
 
-## Laplacian Stencil
+## Project Structure
 
-The Laplacian stencil is a common numerical computation used in image processing and simulations. It calculates the discrete Laplacian of a 2D array.
+The project consists of a single Python script that performs the following tasks:
 
-## Code Overview
+1. **User Input**: The script first asks the user if they want to print the details of the execution.
 
-The project includes:
+2. **Laplacian Calculation**: Two functions, `laplacian_2d_cpu` and `laplacian_2d_kernel`, are defined to calculate the Laplacian of a 2D array on the CPU and GPU respectively.
 
-- `laplacian_2d_stencil`: CPU implementation using Numba's stencil decorator.
-- `laplacian_2d_cpu`: CPU implementation using Numba's njit decorator.
-- `laplacian_2d_kernel`: GPU implementation using CUDA.
+3. **Memory Usage Measurement**: The `measure_memory_usage` function is used to measure the memory usage of an object.
 
-## Requirements
+4. **Benchmark Execution**: The `run_benchmark` function runs the benchmark on the specified device (CPU or GPU) with a given array size. It measures the execution time, memory usage, and throughput (operations per second) of the Laplacian calculation.
 
-- Python 3.8 or >
-- Numba
-- CUDA-enabled GPU (for GPU execution)
+5. **Benchmark Iteration**: The script iterates over different array sizes and devices, storing the results of each run in a list.
 
-## Numba
-
-[Numba](http://numba.pydata.org/) is a high-performance, open-source JIT compiler that translates Python functions into optimized machine code. It is used in this project to accelerate the Laplacian stencil computation on both CPU and GPU.
-
-## NumPy
-
-[NumPy](https://numpy.org/) is the fundamental package for scientific computing with Python. It provides support for large, multi-dimensional arrays and matrices, along with mathematical functions to operate on these arrays.
-
-## CUDA
-
-[CUDA](https://developer.nvidia.com/cuda-zone) is a parallel computing platform and programming model developed by NVIDIA. It enables developers to use NVIDIA GPUs for general-purpose processing (GPGPU). In this project, CUDA is utilized for GPU acceleration.
+6. **Results Presentation**: Finally, the script calculates the speedup factor of the GPU over the CPU and presents the results in a pandas DataFrame.
 
 ## Results
 
-The project provides insights into:
+### CPU Results:
+![Results](Analysis Results\cpu.png)
 
-- Execution time comparison between CPU and GPU.
-- Memory usage comparison between CPU and GPU.
-- The speedup factor, indicating how many times faster the GPU is compared to the CPU.
+### GPU Results:
+![Results](Analysis Results\gpu.png)
 
-## Performance Plot
+### Speed-Up Factor:
+The speed-up factor is calculated by dividing the execution time of the CPU by the execution time of the GPU for a given array size and ID.
 
-The README includes a performance comparison plot, showcasing execution time and memory usage on both devices.
-![image](https://github.com/Marinto-Richee/2D-Stenciling-using-CUDA-and-CPU/assets/65499285/09418ac1-3fcb-4f54-be8a-4df327b2b96d)
+| ID | CPU | GPU |
+| 1 | i5-10300H CPU @ 2.50GHz with GTX 1650 | NVIDIA GeForce GTX 1650 |
+| 2 | i5-10300H CPU @ 2.50GHz with GTX 1650 Ti | NVIDIA GeForce GTX 1650 Ti |
+| 3 | Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz | NVIDIA GeForce MX230 |
+| 4 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2060 | NVIDIA GeForce RTX 2060 |
+| 5 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2070 with Max-Q Design | NVIDIA GeForce RTX 2070 with Max-Q Design |
+| 6 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
+| 7 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
+| 1 | i5-10300H CPU @ 2.50GHz with GTX 1650 | NVIDIA GeForce GTX 1650 |
+| 2 | i5-10300H CPU @ 2.50GHz with GTX 1650 Ti | NVIDIA GeForce GTX 1650 Ti |
+| 3 | Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz | NVIDIA GeForce MX230 |
+| 4 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2060 | NVIDIA GeForce RTX 2060 |
+| 5 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2070 with Max-Q Design | NVIDIA GeForce RTX 2070 with Max-Q Design |
+| 6 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
+| 7 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
+
+![Results](Analysis Results\Speed-up Factor vs Array Size.png)
+
+## Usage
+
+To run the benchmark, simply execute the script. You will be asked if you want to print the details of the execution. Enter 'y' for yes or 'n' for no.
+
+## Requirements
+
+This project requires Python, Numba, NumPy, and pandas. If you want to run the GPU benchmarks, you will also need a CUDA-capable GPU and the CUDA toolkit.
