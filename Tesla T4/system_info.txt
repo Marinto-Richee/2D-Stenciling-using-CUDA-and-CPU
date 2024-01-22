@@ -1,0 +1,13 @@
+CPU name: Intel(R) Xeon(R) CPU @ 2.30GHz
+CPU cores: 2
+CPU bits: 64
+CPU frequency: 2.3000 GHz
+CPU architecture: X86_64
+CPU L2 Cache Size: 262144
+CPU L3 Cache Size: 47185920
+
+GPU name: Tesla T4
+GPU memory total: 15.00 GB
+GPU memory used: 2.01 GB
+GPU memory free: 12.74 GB
+GPU utilization: 0.00%

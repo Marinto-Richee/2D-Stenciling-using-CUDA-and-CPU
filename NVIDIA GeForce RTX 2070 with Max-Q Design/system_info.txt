@@ -1,0 +1,13 @@
+CPU name: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+CPU cores: 12
+CPU bits: 64
+CPU frequency: 2.5920 GHz
+CPU architecture: X86_64
+CPU L2 Cache Size: 1572864
+CPU L3 Cache Size: 12582912
+
+GPU name: NVIDIA GeForce RTX 2070 with Max-Q Design
+GPU memory total: 8.00 GB
+GPU memory used: 0.87 GB
+GPU memory free: 6.96 GB
+GPU utilization: 20.00%
