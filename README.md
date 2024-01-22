@@ -21,10 +21,10 @@ The project consists of a single Python script that performs the following tasks
 ## Results
 
 ### CPU Results:
-![Results](../Analysis_Results/cpu.png)
+![Results](Analysis_Results/cpu.png)
 
 ### GPU Results:
-![Results](../2D-Stenciling-using-CUDA-and-CPU/Analysis_Results/cuda.png)
+![Results](Analysis_Results/cuda.png)
 
 ### Speed-Up Factor:
 The speed-up factor is calculated by dividing the execution time of the CPU by the execution time of the GPU for a given array size and ID.
@@ -59,7 +59,7 @@ The speed-up factor is calculated by dividing the execution time of the CPU by t
 | 6 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
 | 7 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
 
-![Results](Analysis Results\Speed-up Factor vs Array Size.png)
+![Results](Analysis_Results\Speed-up Factor vs Array Size.png)
 
 ## Usage
 
