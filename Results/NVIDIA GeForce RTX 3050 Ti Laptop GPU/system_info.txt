@@ -8,6 +8,6 @@ CPU L3 Cache Size: 25165824
 
 GPU name: NVIDIA GeForce RTX 3050 Ti Laptop GPU
 GPU memory total: 4.00 GB
-GPU memory used: 0.36 GB
-GPU memory free: 3.52 GB
+GPU memory used: 0.08 GB
+GPU memory free: 3.80 GB
 GPU utilization: 0.00%
