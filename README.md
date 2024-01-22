@@ -21,7 +21,7 @@ The project consists of a single Python script that performs the following tasks
 ## Results
 
 ### CPU Results:
-![Results](../2D-Stenciling-using-CUDA-and-CPU/Analysis_Results/cpu.png)
+![Results](../Analysis_Results/cpu.png)
 
 ### GPU Results:
 ![Results](../2D-Stenciling-using-CUDA-and-CPU/Analysis_Results/cuda.png)
