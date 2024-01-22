@@ -33,10 +33,11 @@ The speed-up factor is calculated by dividing the execution time of the CPU by t
 | 1 | i5-10300H CPU @ 2.50GHz with GTX 1650 | NVIDIA GeForce GTX 1650 |
 | 2 | i5-10300H CPU @ 2.50GHz with GTX 1650 Ti | NVIDIA GeForce GTX 1650 Ti |
 | 3 | Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz | NVIDIA GeForce MX230 |
-| 4 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2060 | NVIDIA GeForce RTX 2060 |
-| 5 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2070 with Max-Q Design | NVIDIA GeForce RTX 2070 with Max-Q Design |
-| 6 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
-| 7 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
+| 4 | Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz | NVIDIA GeForce MX350 |
+| 5 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2060 | NVIDIA GeForce RTX 2060 |
+| 6 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2070 with Max-Q Design | NVIDIA GeForce RTX 2070 with Max-Q Design |
+| 7 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
+| 8 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
 
 
 
