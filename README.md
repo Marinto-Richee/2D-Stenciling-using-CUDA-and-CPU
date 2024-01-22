@@ -21,10 +21,10 @@ The project consists of a single Python script that performs the following tasks
 ## Results
 
 ### CPU Results:
-![Results](Analysis Results\cpu.png)
+![Results](../2D-Stenciling-using-CUDA-and-CPU/Analysis_Results/cpu.png)
 
 ### GPU Results:
-![Results](Analysis Results\gpu.png)
+![Results](../2D-Stenciling-using-CUDA-and-CPU/Analysis_Results/cuda.png)
 
 ### Speed-Up Factor:
 The speed-up factor is calculated by dividing the execution time of the CPU by the execution time of the GPU for a given array size and ID.
