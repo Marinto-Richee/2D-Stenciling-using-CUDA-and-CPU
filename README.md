@@ -51,4 +51,11 @@ To run the benchmark, simply execute the script. You will be asked if you want t
 ## Requirements
 
 This project requires Python, Numba, NumPy, and pandas. If you want to run the GPU benchmarks, you will also need a CUDA-capable GPU and the CUDA toolkit.
-
+```
+!pip install numpy
+!pip install pandas
+!pip install matplotlib
+!pip install numba cudatoolkit
+!pip install py-cpuinfo
+!pip install gputil
+```
