@@ -1,4 +1,4 @@
-CPU name: i5-10300H CPU @ 2.50GHz with GTX 1650 Ti
+CPU name: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
 CPU cores: 8
 CPU bits: 64
 CPU frequency: 2.4960 GHz

@@ -31,7 +31,7 @@ The speed-up factor is calculated by dividing the execution time of the CPU by t
 | ID | CPU | GPU |
 | - | - | - |
 | 1 | i5-10300H CPU @ 2.50GHz with GTX 1650 | NVIDIA GeForce GTX 1650 |
-| 2 | i5-10300H CPU @ 2.50GHz with GTX 1650 Ti | NVIDIA GeForce GTX 1650 Ti |
+| 2 | Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz | NVIDIA GeForce GTX 1650 Ti |
 | 3 | Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz | NVIDIA GeForce MX230 |
 | 4 | Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz | NVIDIA GeForce MX350 |
 | 5 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2060 | NVIDIA GeForce RTX 2060 |
