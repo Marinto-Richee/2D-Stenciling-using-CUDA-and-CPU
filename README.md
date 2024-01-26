@@ -37,7 +37,8 @@ The speed-up factor is calculated by dividing the execution time of the CPU by t
 | 5 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2060 | NVIDIA GeForce RTX 2060 |
 | 6 | i7-10750H CPU @ 2.60GHz with GeForce RTX 2070 with Max-Q Design | NVIDIA GeForce RTX 2070 with Max-Q Design |
 | 7 | 12th Gen Intel(R) Core(TM) i7-12700H | NVIDIA GeForce RTX 3050 Ti Laptop GPU |
-| 8 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
+| 8 | 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz | NVIDIA GeForce RTX 3060 Laptop GPU |
+| 9 | Intel(R) Xeon(R) CPU @ 2.30GHz | Tesla T4 |
 
 
 

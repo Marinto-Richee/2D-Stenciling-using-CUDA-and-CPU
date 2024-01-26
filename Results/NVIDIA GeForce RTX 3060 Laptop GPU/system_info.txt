@@ -1,0 +1,13 @@
+CPU name: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+CPU cores: 16
+CPU bits: 64
+CPU frequency: 2.3040 GHz
+CPU architecture: X86_64
+CPU L2 Cache Size: 10485760
+CPU L3 Cache Size: 25165824
+
+GPU name: NVIDIA GeForce RTX 3060 Laptop GPU
+GPU memory total: 6.00 GB
+GPU memory used: 0.11 GB
+GPU memory free: 5.76 GB
+GPU utilization: 0.00%
